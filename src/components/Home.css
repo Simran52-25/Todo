@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.todo-item{
+    background-color:rgb(192, 192, 192);
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    margin:5px;
+    
+}
+
+.buttons{
+    display: flex;
+    gap:4px;
+}
+.btn{
+    background-color: rgb(161, 227, 169);
+    padding: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.edit-input{
+    position: absolute;
+    top:50%;
+    left:50%;
+}
